@@ -11,5 +11,5 @@ async def on_ready():
     await ctx.send("Bot is online!")
 
 if not os.environ.get('TOKEN'):
-print("no token found REEEE!")
+    print("no token found REEEE!")
 bot.run(os.environ.get('TOKEN').strip('\"'))
